@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* navbar */
+header {
+  margin: 0;
+  padding: 0;
+  height: 7vh;
+  background-color: #610094;
+}
+
+.nav1 ul {
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  margin-bottom: 0px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+
+  padding: 20px;
+  padding-left: 40px;
+  color: white;
+}
+
+li ul {
+  display: none;
+  position: absolute;
+}
+
+li:hover ul {
+  z-index: 1;
+  display: block;
+  background-color: #610094;
+}
+
+li ul li {
+  clear: both;
+}
+
+.logo {
+  padding: 10px;
+  height: 60px;
+  padding-right: 30px;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #610094;
+  color: white;
+}
+
+.intro {
+  padding: 0px;
+  margin: 0px;
+  height: 100vh;
+}
+
+.intro video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.intro h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  color: white;
+}
+
+section {
+  padding: 0px;
+  margin: 0px;
+  height: 100vh;
+  color: black;
+  clear: both;
+  /* float: left; */
+  box-sizing: border-box;
+}
+
+section h1 {
+  padding: 300px;
+  text-align: center;
+  font-size: 80px;
+}
+
+h3 {
+  padding: 20px;
+  text-align: center;
+  font-size: 50px;
+}
+
+.details {
+  background-color: #eeeeee;
+  color: #787a91;
+}
+
+/* pricing */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* footer */
+
+#footer {
+  text-align: center;
+  background-color: #fff;
+  padding: 5% 25%;
+}
+
+.footer-icon {
+  margin: 30px 10px;
+}
